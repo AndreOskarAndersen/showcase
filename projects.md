@@ -8,7 +8,7 @@ The following markdown is an overview my most important data science projects. A
 
 ### __Master Thesis: 2D Tracking in Climbing with Temporal Smoothing (2023 - Work in progress)__
 
-__Description__: This project is my master thesis (which is still a work in progress). The thesis is done in collaboration with ClimbAlong ApS, who provided a (partially) annotated dataset and a pretrained Mask R-CNN for pose estimation. The task of the project is to extend the provided Mask R-CNN, such that the pose estimator leverages the temporal information of a video to improve the performance of the model. So-far, the plan is experiment with various RNN-based architectures (convolutional LSTM/GRU), as well as a Transformer-based model.
+__Description__: This project is my master thesis (which is still a work in progress). The thesis is done in collaboration with ClimbAlong ApS, who provided a (partially) annotated dataset and a pretrained Mask R-CNN for pose estimation. The task of the project is to extend the provided Mask R-CNN, such that the pose estimator leverages the temporal information of a video to improve the performance of the model. The project experiments with various RNN-based architectures (convolutional LSTM/GRU), as well as a Transformer-based model.
 
 __Keywords__: Mask R-CNN, LSTM, GRU, Transformer
 
@@ -28,13 +28,13 @@ __Keywords__: U-Net, Segmentation, Medical Image Analysis, XAI
 
 ### [__Multilingual Question Answering System__](./papers/NLP_project.pdf)
 
-__Description__:
+__Description__: This project aimed at implementing multiple question answering models. This includes models that can classify whether a text contains the answer to a question, and also models that can extract said answer. Additionally, we analyse the dataset via these models to interpret how it works. All of the models ended up succeeding in both the classification and token classification tasks
 
 __Keywords__: Multilingual, Question answering, XLM-RoBERTa
 
 ### [__Generalization without Systematicity: Reproduction and Extension__](./papers/ATNLP_project.pdf)
 
-__Description__:
+__Description__: This projected was centered around the paper *Generalization without Systematicity: On the Compositional Skills of Sequence-to-Sequence Recurrent Networks*. The paper focused on translating navigation commands to a sequence of actions. The aim of the project was to (1) replicate the results of the paper, and (2) extend the paper, such that the experiements were done with a transformer-based model instead. 
 
 __Keywords__: Machine translation, LSTM, GRU, Transformer
 
@@ -42,6 +42,8 @@ __Keywords__: Machine translation, LSTM, GRU, Transformer
  
 ### [__Information Retrieval System for the News Domain__](./papers/NIR_project.pdf)
 
-__Description__:
+__Description__: This project aimed at implementing and evaluating search
+algorithms for news articles. This included (1) implementing and evaluating various indices, (2) implementing and evaluating various ranking models, and (3) present,
+analyse and discuss the results.
 
 __Keywords__: Information retrieval, GloVe, BM25, BERT, T5
