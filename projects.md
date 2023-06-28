@@ -6,13 +6,13 @@ The following markdown is an overview my most important data science projects. A
 
 ## __Computer vision__
 
-### __Master Thesis: 2D Tracking in Climbing with Temporal Smoothing (2023 - Work in progress)__
+### __Master Thesis: Temporal Smoothing in 2D Human Pose Estimation for Bouldering (2023)__
 
-__Description__: This project is my master thesis (which is still a work in progress). The thesis is done in collaboration with ClimbAlong ApS, who provided a (partially) annotated dataset and a pretrained Mask R-CNN for pose estimation. The task of the project is to extend the provided Mask R-CNN, such that the pose estimator leverages the temporal information of a video to improve the performance of the model. The project experiments with various RNN-based architectures (convolutional LSTM/GRU), as well as a Transformer-based model.
+__Description__: This project was my master thesis. The thesis is done in collaboration with ClimbAlong at NorthTech ApS, who provided an annotated dataset and a pretrained Mask R-CNN for pose estimation. The task of the project is to extend the provided Mask R-CNN, such that the pose estimator leverages the temporal information of a video to improve the performance of the model. The project experiments with various architectures (3D-conv, bi-convLSTM and transformer), such that we ended up with the best setup.
 
 __Keywords__: Mask R-CNN, LSTM, GRU, Transformer
 
-### [__Bachelor Thesis: 2D Articulated Human Pose Estimation using Explainable Artificial Intelligence (2020)__](./papers/bsc_thesis.pdf)
+### [__Bachelor Thesis: 2D Articulated Human Pose Estimation using Explainable Artificial Intelligence (2021)__](./papers/bsc_thesis.pdf)
 
 __Description__: This project was my bachelor thesis, where I implemented a Stacked hourglass. This was then followed by an interpolation of the model, which was done by interpreting the effects of certain parts of the model, as well as the structure of the latent space. Based on these interpretations I concluded, that there were some redundancy and misplaced samples in the latent space of the model. Lastly, I used the obtained information about the model to improve the performance and remove redundancy of the model. This was done by modifying the architecture to include an autoencoder with a reduced information bottleneck.
 
