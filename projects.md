@@ -6,7 +6,7 @@ The following markdown is an overview my most important data science projects. A
 
 ## __Computer vision__
 
-### __Master Thesis: Temporal Smoothing in 2D Human Pose Estimation for Bouldering (2023)__
+### [__Master Thesis: Temporal Smoothing in 2D Human Pose Estimation for Bouldering (2023)__](./papers/msc_thesis.pdf)
 
 __Description__: This project was my master thesis. The thesis is done in collaboration with ClimbAlong at NorthTech ApS, who provided an annotated dataset and a pretrained Mask R-CNN for pose estimation. The task of the project is to extend the provided Mask R-CNN, such that the pose estimator leverages the temporal information of a video to improve the performance of the model. The project experiments with various architectures (3D-conv, bi-convLSTM and transformer), such that we ended up with the best setup.
 
